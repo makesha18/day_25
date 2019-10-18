@@ -78,10 +78,13 @@ textarea {
 	font-family: PlayfairDisplay, serif;
 	opacity: 1;
 }
-.ba-first-letter{
-	float:left;
-	margin: 10px 30px 8px 0 ;
-	opacity: 1;
+.ba-fl:first-of-type:first-letter{
+font-family: PlayfairDisplay, serif;
+color: #171717;
+font-size: 115px;
+line-height: 0.9;
+margin: 0 28px 2px 0;
+float: left;
 }
 .ba-cite{
 	font-size: 27px;
@@ -91,15 +94,13 @@ textarea {
 }
 .ba-cite:before{
 	content:open-quote;
-}
-.ba-cite:after{
-	content:close-quote;
+	font-size: 70px;
 }
 .ba-button{
 	text-transform: uppercase;
 	text-decoration: none;
-	border: 2px solid #cf7622;
-	color: #cf7622;;
+	border: 2px solid #f58014;
+	color: #f58014;
 	padding: 12px 84px;
 	margin: 17px 0 10px  ;
 	font-weight: 250px;
